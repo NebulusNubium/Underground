@@ -1,0 +1,54 @@
+@font-face { 
+    font-family : "roboto";
+    src : url("../fonts/Roboto/static/Roboto-Regular.ttf");
+    font-weight: 400;
+}
+
+body {
+    font-family : "roboto", Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-family: "roboto", sans-serif;
+}
+
+.banderolle {
+    background-image: url("../assets/cybercafe.jpg");
+    background-size: cover;
+    background-position: bottom ;
+    height: 12rem;
+    width: 90rem;
+    color: white;
+    padding-top: 2rem;
+    display: block;
+    margin: auto;
+}
+
+.img {
+    height: 15rem;
+ 
+}
+
+.table {
+    text-align: center;
+    margin: 0 auto;
+}
+table > thead {
+    background-color:blueviolet;
+}
+
+.participez {
+    background-color: blueviolet;
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+.reserver {
+    background-color: white;
+    color: black;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 30px;
+}
